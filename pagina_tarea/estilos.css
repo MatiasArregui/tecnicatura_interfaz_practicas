@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header_estilo{
+    color: aliceblue;
+    text-align: center;
+}
+.nav_estilo{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.nav_estilo a{
+    text-decoration: none;
+    color: white;
+}
+.main_estilo{
+    text-align: center;
+}
