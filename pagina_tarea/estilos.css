@@ -1,6 +1,5 @@
 body{
-    background-color: black;
-    color: white;
+margin: 0px;
 }
 /* ----------------- Estilos aplicados en el HEADER ---------------- */
 .header_estilo{
@@ -25,7 +24,7 @@ body{
 .contenedor1 div{
     border: 2px solid #43cbe1;
     border-radius: 3px;
-    padding: 0px 2px 0px 2px;
+    padding: 0px 20px 0px 20px;
 }
 /* Contenedor2 esta compuesto por el input y el button */
 .contenedor2{
@@ -79,7 +78,7 @@ body{
     height: 400px;
 
 }
-/* Tercer Contenedor con los tres recuadros y su descripcion */
+/* Tercer Contenedor con la imagen y el titulo y descripcion que los acompaña */
 .contenedor5{
     background-color: #ffffff;
     color: black;
@@ -94,13 +93,46 @@ body{
     border: 2px solid #43cbe1;
     border-radius: 3px;
 }
-.sub_contenedor5_1{
+.sub_contenedor5{
     margin-right: 20px;
 }
-.sub_contenedor5_2{
+/* Cuarto Contenedor con la imagen y el titulo y descripcion que los acompaña */
+.contenedor6{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+}
+.contenedor6 img{
+    width: 200px;
+    height: 250px;
+    border: 2px solid #43cbe1;
+    border-radius: 3px;
+}
+.sub_contenedor6{
     margin-left: 20px;
 }
-.sub_contenedor5_2 h3{
+.sub_contenedor6 h3{
     text-align: end;
     margin-right: 40px;
+}
+/* ----------------- Estilos aplicados en el FOOTER ---------------- */
+.footer_estilo{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    border: 3px inset #43cbe1;
+}
+.footer_estilo div{
+    background-color: #43cbe1;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 3px inset #43cbe1;
+}
+.footer_estilo h5{
+    margin: 20px;
 }
