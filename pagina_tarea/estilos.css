@@ -3,18 +3,40 @@ body{
     color: white;
 }
 .header_estilo{
-    color: aliceblue;
-    text-align: center;
-}
-.nav_estilo{
     display: flex;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+    padding: 10px;
 }
-.nav_estilo a{
-    text-decoration: none;
-    color: white;
+
+.header_estilo img{
+    width: 100px;
 }
-.main_estilo{
-    text-align: center;
+.contenedor1{
+    border-color: aqua;
+    color: black;
+    display: flex;
+    gap: 10px;
+}
+.contenedor1 div{
+    border: 2px solid #43cbe1;
+    padding: 0px 2px 0px 2px;
+}
+.contenedor2{
+    border: 2px solid #43cbe1;
+}
+.contenedor2 button{
+    border: 1px solid #43cbe1; /*anchura, estilo y color borde*/
+    /* padding: 10px; espacio alrededor texto */
+    background-color: #43cbe1; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    /* border-radius: 50px; bordes redondos */
+}
+.contenedor2 input{
+    border: none;
 }
