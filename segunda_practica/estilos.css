@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*---------------- Estilos del header ----------------*/
+.header_estilo{
+    background-color: #a2ffff;
+    /* text-align: center; */
+}
+
+.div_header_1{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.div_header_2{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: pink solid 4px;
+    height: 50px;
+}
+.div_header_2 a{
+    text-decoration: none;
+}
+.div_header_2 div{
+    margin: auto;
+}
