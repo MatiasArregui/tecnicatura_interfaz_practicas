@@ -1,138 +1,145 @@
 body{
     margin: 0px;
 }
-/* ----------------- Estilos aplicados en el HEADER ---------------- */
-.header_estilo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    gap: 20px;
-    padding: 10px;
+/*--------------------------- ESTILOS DEL HEADER -------------------------------*/
+header{
+    display: flow-root;
+    height: 150px;
+}
+.div_1 img{
+    height: 100px;
+}
+.div_1{
+    float: left;
+    margin: 23px 2px 25px 22px;
 }
 
-.header_estilo img{
-    width: 100px;
-}
-/* Contenedor1 esta compuesto por los elementos "Enter title rare" */
-.contenedor1{
-    border-color: aqua;
-    color: black;
-    display: flex;
-    gap: 10px;
-}
-.contenedor1 div{
-    border: 2px solid #43cbe1;
-    border-radius: 3px;
-    padding: 0px 20px 0px 20px;
-}
-/* Contenedor2 esta compuesto por el input y el button */
-.contenedor2{
-    border: 2px solid #43cbe1;
-    border-radius: 3px;
-}
-.contenedor2 button{
-    border: 1px solid #43cbe1;
-    background-color: #43cbe1;
-    color: #ffffff;
-}
-.contenedor2 input{
-    border: none;
-}
-/* ----------------- Estilos aplicados en el MAIN ---------------- */
-/* Primer Contenedor "Enter Title Here" */
-.contenedor3{
-    color: black;
+.div_2{
+    height: 30px;
+    width: 1000px;
+    /* margin: 50px 100px 25px 100px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
     text-align: center;
-    background-color: #ffffff;
-    height: 200px;
-    align-content: center;
-    justify-content: center;
-    border: 2px inset #43cbe1;
+    padding-top: 10px;
+    float: left;
 }
-.contenedor3 div:nth-child(2){
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.div_2 span{
+    margin: 20px 50px;
+    text-align: center;
+    border: 2px solid #43cbe1;
+    border-radius: 2px;
+    padding: 4px;
 }
-/* Segundo Contenedor con los tres recuadros y su descripcion */
-.contenedor4{
-    background-color: #ffffff;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5px;
-    height: 500px;
+.div_3{
+    height: 20px;
+    border: 2px solid #43cbe1;
+    border-radius: 2px;
+    float: right;
+    background-color: white;
+    margin: 55px 22px 200px 2px;
 }
-.contenedor4 img{
+.div_3 input{
+    border: none;
+    background-color: white;
+}
+.div_3 svg{
+    color: white;
+    background-color: #43cbe1;
+}
+.div_3 button{
+    background-color: #43cbe1;
+    border: #43cbe1;
+}
+
+/*---------------------------- ESTILOS DEL MAIN ----------------------------*/
+
+/*---------- SECCION UNO ---------*/
+.seccion_1{
+    text-align: center;
+    border: 2px solid #43cbe1;
+    padding: 50px;
+}
+/*---------- SECCION DOS ---------*/
+.seccion_2{
+    background-color: white;
+}
+.box{
+    padding-top: 50px;
+    float: left;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.box img{
     width: 200px;
+    height: 200px;
+    border: 2px solid #43cbe1;
+    border-radius: 2px;
+}
+/*---------- SECCION TRES ---------*/
+.seccion_3{ 
+    /* display: flow-root; */
+    border: 2px solid #43cbe1;
+    float: right;
+}
+.box_s_3 img{
+    float: right;
+    width: 300px;
     height: 300px;
     border: 2px solid #43cbe1;
-    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
-.sub_contenedor4{
-    text-align: center;
-    padding: 4px 0px 4px 0px;
-    width: 300px;
-    height: 400px;
-
-}
-/* Tercer Contenedor con la imagen y el titulo y descripcion que los acompaña */
-.contenedor5{
-    background-color: #ffffff;
-    color: black;
-    display: flex;
-    align-items: center;
-    border: 2px inset #43cbe1;
-    padding: 10px 25px 10px 25px;
-}
-.contenedor5 img{
-    width: 200px;
-    height: 250px;
-    border: 2px solid #43cbe1;
-    border-radius: 3px;
-}
-.sub_contenedor5{
-    margin-right: 20px;
-}
-/* Cuarto Contenedor con la imagen y el titulo y descripcion que los acompaña */
-.contenedor6{
-    background-color: #ffffff;
-    color: black;
-    display: flex;
-    align-items: center;
-    padding: 10px 25px 10px 25px;
-}
-.contenedor6 img{
-    width: 200px;
-    height: 250px;
-    border: 2px solid #43cbe1;
-    border-radius: 3px;
-}
-.sub_contenedor6{
+.box_s_3 h2 p{
+    float: left;
     margin-left: 20px;
 }
-.sub_contenedor6 h3{
-    text-align: end;
-    margin-right: 40px;
+/*---------- SECCION CUATRO ---------*/
+.seccion_4{ 
+    /* display: flow-root; */
+    float: left;
+    margin-bottom: 100px;
 }
-/* ----------------- Estilos aplicados en el FOOTER ---------------- */
+.box_s_4 img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #43cbe1;
+    margin-right: 10px;
+}
+.box_s_4 h2 p{
+    float: right;
+}
+
+/*------------------ ESTILOS DEL FOOTER --------------------*/
+/* .footer_estilo{
+    display: flow-root;
+    float: right;
+    margin-right: 500px;
+    margin-top: 20px;
+    padding-top: 180px;
+    padding-left: 100px;
+    width: 1000px;
+    height: 200px;
+    border: 2px solid #43cbe1;
+} */
 .footer_estilo{
-    background-color: #ffffff;
-    color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 250px;
-    border: 3px inset #43cbe1;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 100px;
+
 }
-.footer_estilo div{
+.footer_estilo span{
+    padding: 20px;
+    margin: 0px 50px;
+    margin-top: 50px;
+    text-align: center;
     background-color: #43cbe1;
-    color: #ffffff;
-    border-radius: 3px;
-    border: 3px inset #43cbe1;
+    color: white;
+    border-radius: 2px;
 }
-.footer_estilo h5{
-    margin: 20px;
-}
+

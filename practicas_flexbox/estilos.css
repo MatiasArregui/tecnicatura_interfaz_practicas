@@ -1,0 +1,9 @@
+body{
+    background-image: url(images/fondo.jpg);
+}
+.header_estilo{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: aliceblue;
+}
