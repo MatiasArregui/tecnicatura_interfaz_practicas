@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+}
+/*--------------------------- ESTILOS DEL HEADER -------------------------------*/
+header{
+    display: flow-root;
+    height: 150px;
+}
+.div_1 img{
+    height: 100px;
+}
+.div_1{
+    float: left;
+    margin: 23px 2px 25px 22px;
+}
+
+.div_2{
+    height: 30px;
+    width: 1000px;
+    /* margin: 50px 100px 25px 100px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+}
+.div_2 span{
+    margin: 20px 50px;
+    text-align: center;
+    border: 2px solid #43cbe1;
+    border-radius: 2px;
+    padding: 4px;
+}
+.div_3{
+    height: 20px;
+    border: 2px solid #43cbe1;
+    border-radius: 2px;
+    float: right;
+    background-color: white;
+    margin: 55px 22px 200px 2px;
+}
+.div_3 input{
+    border: none;
+    background-color: white;
+}
+.div_3 svg{
+    color: white;
+    background-color: #43cbe1;
+}
+.div_3 button{
+    background-color: #43cbe1;
+    border: #43cbe1;
+}
+
+/*---------------------------- ESTILOS DEL MAIN ----------------------------*/
+
+/*---------- SECCION UNO ---------*/
+.seccion_1{
+    text-align: center;
+    border: 2px solid #43cbe1;
+    padding: 50px;
+}
+/*---------- SECCION DOS ---------*/
+.seccion_2{
+    background-color: white;
+}
+.box{
+    padding-top: 50px;
+    float: left;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.box img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #43cbe1;
+    border-radius: 2px;
+}
+/*---------- SECCION TRES ---------*/
+.seccion_3{ 
+    /* display: flow-root; */
+    border: 2px solid #43cbe1;
+    float: right;
+}
+.box_s_3 img{
+    float: right;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #43cbe1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box_s_3 h2 p{
+    float: left;
+    margin-left: 20px;
+}
+/*---------- SECCION CUATRO ---------*/
+.seccion_4{ 
+    /* display: flow-root; */
+    float: left;
+    margin-bottom: 100px;
+}
+.box_s_4 img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #43cbe1;
+    margin-right: 10px;
+}
+.box_s_4 h2 p{
+    float: right;
+}
+
+/*------------------ ESTILOS DEL FOOTER --------------------*/
+/* .footer_estilo{
+    display: flow-root;
+    float: right;
+    margin-right: 500px;
+    margin-top: 20px;
+    padding-top: 180px;
+    padding-left: 100px;
+    width: 1000px;
+    height: 200px;
+    border: 2px solid #43cbe1;
+} */
+.footer_estilo{
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 100px;
+
+}
+.footer_estilo span{
+    padding: 20px;
+    margin: 0px 50px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #43cbe1;
+    color: white;
+    border-radius: 2px;
+}
+
